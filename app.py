@@ -26,7 +26,7 @@ st.sidebar.title('Select House Features 🏠')
 st.sidebar.image('https://www.shutterstock.com/image-photo/online-real-estate-house-property-600nw-1915758310.jpg')
 
 #read data 
-temp_df = pd.read_csv(r'C:\Users\Hp\Documents\KartikArora\california.csv')
+temp_df = pd.read_csv('california.csv')
 
 random.seed(52)
 
